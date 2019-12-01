@@ -1,0 +1,11 @@
+1.新建文件，通过git init 命令变成git可以管理的仓库
+2.用git add .把文件添加到仓库
+3.用git commit -m “ 说明内容，备注（可输入任意内容）”，把文件提交到仓库
+4.（要随时掌握工作状态）用git status 命令查看仓库状态. 用git diff查看修改内容
+5.用git log查看版本日志/信息（author、date）
+6.版本回退用git reset --hard commit-id. 用git reflog查看命令记录（回退记录）
+7.添加远程仓库主机用git remote add （主机名称）（主机地址） 
+8.查看已设置的远程主机，用git remote -v
+9.删除已设置的远程主机，用git remote rm origin
+10.将本地版本仓库推送到远程仓库，用git push origin master
+12.用git checkout -b新建并切换分支. 切换分支用git checkout（分支名）.合并分支用git merge（分支名） 
